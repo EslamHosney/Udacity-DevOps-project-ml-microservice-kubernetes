@@ -1,0 +1,28 @@
+(.Udacity_DevOps_L5_l5_CircleCI) ec2-user:~/environment/Udacity-DevOps-project-ml-microservice-kubernetes (main) $ ./run_kubernetes.sh latest: Pulling from eslamhosney/udacity_ml_proj_img
+Digest: sha256:442d2587a62e2384216477fe819c80237be2709fd5421cfec6889da10f9905fa
+Status: Image is up to date for eslamhosney/udacity_ml_proj_img:latest
+docker.io/eslamhosney/udacity_ml_proj_img:latest
+pod/udacity-ml-proj-deploy created
+NAME                     READY   STATUS              RESTARTS       AGE
+flaskskearlndemo         1/1     Running             1 (125m ago)   8h
+udacity-ml-proj-deploy   0/1     ContainerCreating   0              0s
+(.Udacity_DevOps_L5_l5_CircleCI) ec2-user:~/environment/Udacity-DevOps-project-ml-microservice-kubernetes (main) $ kubectl get pods
+NAME                     READY   STATUS              RESTARTS       AGE
+flaskskearlndemo         1/1     Running             1 (126m ago)   8h
+udacity-ml-proj-deploy   0/1     ContainerCreating   0              22s
+(.Udacity_DevOps_L5_l5_CircleCI) ec2-user:~/environment/Udacity-DevOps-project-ml-microservice-kubernetes (main) $ 
+(.Udacity_DevOps_L5_l5_CircleCI) ec2-user:~/environment/Udacity-DevOps-project-ml-microservice-kubernetes (main) $ 
+(.Udacity_DevOps_L5_l5_CircleCI) ec2-user:~/environment/Udacity-DevOps-project-ml-microservice-kubernetes (main) $ 
+(.Udacity_DevOps_L5_l5_CircleCI) ec2-user:~/environment/Udacity-DevOps-project-ml-microservice-kubernetes (main) $ kubectl get pods
+NAME                     READY   STATUS              RESTARTS       AGE
+flaskskearlndemo         1/1     Running             1 (126m ago)   8h
+udacity-ml-proj-deploy   0/1     ContainerCreating   0              27s
+(.Udacity_DevOps_L5_l5_CircleCI) ec2-user:~/environment/Udacity-DevOps-project-ml-microservice-kubernetes (main) $ kubectl get pods
+NAME                     READY   STATUS    RESTARTS       AGE
+flaskskearlndemo         1/1     Running   1 (126m ago)   8h
+udacity-ml-proj-deploy   1/1     Running   0              37s
+(.Udacity_DevOps_L5_l5_CircleCI) ec2-user:~/environment/Udacity-DevOps-project-ml-microservice-kubernetes (main) $ kubectl port-forward udacity-ml-proj-deploy 8000:80
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+
+Handling connection for 8000
