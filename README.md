@@ -1,5 +1,7 @@
 <include a CircleCI status badge, here>
 
+[![CircleCI](https://circleci.com/gh/EslamHosney/Udacity-DevOps-project-ml-microservice-kubernetes/tree/main.svg?style=svg)](https://circleci.com/gh/EslamHosney/Udacity-DevOps-project-ml-microservice-kubernetes/tree/main)
+
 ## Project Overview
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
