@@ -50,3 +50,19 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### Run conatiner version
+
+* run ./run_docker.sh
+* run ./make_prediction
+
+
+### Run Kubernetes version
+
+* run ./run_Kubernetes.sh
+* run ./make_prediction
+
+### Upload Docker image
+
+* run ./upload_docker
+
